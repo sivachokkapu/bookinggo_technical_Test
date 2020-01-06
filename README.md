@@ -1,12 +1,14 @@
 # BookingGo Techincal Test Submission
 
+## Prerequisites
+Java 1.7+ and Maven is required. Project developed in Java 1.8.
+
 ## Setup
 ```
-Include any instructions to build you code, including any dependencies.
-
-If a specific IDE is required to run the code specify the IDE and version required.
-
-Give any other information you think is necessary to get things up and running...
+$ git clone https://github.com/sivachokkapu/bookinggo_technical_test.git
+$ cd bookinggo_technical_test
+$ mvn clean install
+$ mvn install dependency:copy-dependencies
 ```
 
 ## Part 1
