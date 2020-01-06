@@ -13,7 +13,11 @@ $ mvn install dependency:copy-dependencies
 
 ## Part 1
 
-Parameters: [0] - output option {1,2,3}, [1] pickup {lat,long}, [2] dropoff {lat,long}, [3] number of passengers {n}
+Parameters: 
+- [0] - output option {1,2,3}
+- [1] - pickup {lat,long}
+- [2] - dropoff {lat,long}
+- [3] - number of passengers {n}
 
 ### Console application to print the search results for Dave's Taxis
 
