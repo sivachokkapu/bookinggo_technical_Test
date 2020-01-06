@@ -59,6 +59,8 @@ public class RidewaysApp {
      * @param args [1] pickup {lat,long}, [2] dropoff {lat,long}
      */
     public static void searchDavesTaxisCars(String[] args) {
+
+
         // checks if valid amount of arguments
         if (checkArgsLength(args.length)) return;
 
