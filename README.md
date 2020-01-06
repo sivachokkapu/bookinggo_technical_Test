@@ -17,14 +17,20 @@ $ mvn install dependency:copy-dependencies
 
 `$ java -jar out/artifacts/bookinggo_tech_test_jar/bookinggo_tech_test.jar 1 51.470020,-0.454295 3.410632,-2.157533`
 
+#### Output
+
 ### Console application to print the search results for Dave's Taxis filtered by number of passengers
 
 `$ java -jar out/artifacts/bookinggo_tech_test_jar/bookinggo_tech_test.jar 2 51.470020,-0.454295 3.410632,-2.157533 5`
+
+#### Output
 
 ### Console application to print cheapest suppliers (can be filtered by passengers)
 
 `$ java -jar out/artifacts/bookinggo_tech_test_jar/bookinggo_tech_test.jar 3 51.470020,-0.454295 3.410632,-2.157533 5`
 
+#### Output
+
 ## Part 2
 
-`Specify how to start the API and provide a sample request`
+`java -jar target/demo-0.0.1-SNAPSHOT.jar`
