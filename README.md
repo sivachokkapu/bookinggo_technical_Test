@@ -63,4 +63,37 @@ LUXURY_PEOPLE_CARRIER - Jeff's Taxis - 299065
 
 ## Part 2
 
-`java -jar target/demo-0.0.1-SNAPSHOT.jar`
+Run with command:
+
+```
+java -jar target/demo-0.0.1-SNAPSHOT.jar
+```
+
+### Get Dave's Taxis available cars through REST api
+
+```
+http://localhost:8080/rideways/daves-taxis?pickup=51.470020,-0.454295&dropoff=51.470020,-0.454295&noOfPassengers=1
+http://localhost:8080/rideways/daves-taxis - uses default data
+```
+Values for dropoff, pickup and noOfPassengers can be changed.
+
+#### Output:
+
+```
+[{"carType":"EXECUTIVE","price":317187,"supplier":"Dave's Taxis"},{"carType":"LUXURY","price":382330,"supplier":"Dave's Taxis"},{"carType":"PEOPLE_CARRIER","price":981795,"supplier":"Dave's Taxis"},{"carType":"LUXURY_PEOPLE_CARRIER","price":673448,"supplier":"Dave's Taxis"}]
+```
+
+### Get cheapest suppliers through REST api
+
+```
+http://localhost:8080/rideways/cheapest-cars?pickup=51.470020,-0.454295&dropoff=51.470020,-0.454295&noOfPassengers=1
+http://localhost:8080/rideways/cheapest-cars - uses default data
+```
+Values for dropoff, pickup and noOfPassengers can be changed.
+
+#### Output:
+```
+[{"carType":"MINIBUS","price":39243,"supplier":"Jeff's Taxis"},{"carType":"PEOPLE_CARRIER","price":202705,"supplier":"Eric's Taxis"},{"carType":"EXECUTIVE","price":196925,"supplier":"Eric's Taxis"},{"carType":"LUXURY","price":398083,"supplier":"Dave's Taxis"},{"carType":"LUXURY_PEOPLE_CARRIER","price":548705,"supplier":"Jeff's Taxis"},{"carType":"STANDARD","price":176217,"supplier":"Jeff's Taxis"}]
+```
+
+
