@@ -15,11 +15,15 @@ $ mvn install dependency:copy-dependencies
 
 ### Console application to print the search results for Dave's Taxis
 
-`Specify command to run the application`
+`$ java -jar out/artifacts/bookinggo_tech_test_jar/bookinggo_tech_test.jar 1 51.470020,-0.454295 3.410632,-2.157533`
 
-### Console application to filter by number of passengers
+### Console application to print the search results for Dave's Taxis filtered by number of passengers
 
-`Specify command to run the application`
+`$ java -jar out/artifacts/bookinggo_tech_test_jar/bookinggo_tech_test.jar 2 51.470020,-0.454295 3.410632,-2.157533 5`
+
+### Console application to print cheapest suppliers (can be filtered by passengers)
+
+`$ java -jar out/artifacts/bookinggo_tech_test_jar/bookinggo_tech_test.jar 3 51.470020,-0.454295 3.410632,-2.157533 5`
 
 ## Part 2
 
