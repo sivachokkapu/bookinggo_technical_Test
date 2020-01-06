@@ -13,23 +13,30 @@ $ mvn install dependency:copy-dependencies
 
 ## Part 1
 
+First parameter is used to select ouput option.
+
 ### Console application to print the search results for Dave's Taxis
 
 `$ java -jar out/artifacts/bookinggo_tech_test_jar/bookinggo_tech_test.jar 1 51.470020,-0.454295 3.410632,-2.157533`
 
-#### Output
+#### Output:
+
+> STANDARD - 15149
+> EXECUTIVE - 336932
+> LUXURY - 904332
+> PEOPLE_CARRIER - 826826
 
 ### Console application to print the search results for Dave's Taxis filtered by number of passengers
 
 `$ java -jar out/artifacts/bookinggo_tech_test_jar/bookinggo_tech_test.jar 2 51.470020,-0.454295 3.410632,-2.157533 5`
 
-#### Output
+#### Output:
 
 ### Console application to print cheapest suppliers (can be filtered by passengers)
 
 `$ java -jar out/artifacts/bookinggo_tech_test_jar/bookinggo_tech_test.jar 3 51.470020,-0.454295 3.410632,-2.157533 5`
 
-#### Output
+#### Output:
 
 ## Part 2
 
