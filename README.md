@@ -20,11 +20,12 @@ First parameter is used to select ouput option.
 `$ java -jar out/artifacts/bookinggo_tech_test_jar/bookinggo_tech_test.jar 1 51.470020,-0.454295 3.410632,-2.157533`
 
 #### Output:
-
-> STANDARD - 15149
-> EXECUTIVE - 336932
-> LUXURY - 904332
-> PEOPLE_CARRIER - 826826
+```
+STANDARD - 15149
+EXECUTIVE - 336932
+LUXURY - 904332
+PEOPLE_CARRIER - 826826
+```
 
 ### Console application to print the search results for Dave's Taxis filtered by number of passengers
 
